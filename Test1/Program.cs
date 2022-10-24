@@ -78,7 +78,7 @@ internal class Program
         PrintMail(_2nd);
 
         Mail _3rd = new (_1st);
-        PrintMail(_3th);
+        PrintMail(_3rd);
 
         Mail _4th = _2nd.Clone();
         PrintMail(_4th);

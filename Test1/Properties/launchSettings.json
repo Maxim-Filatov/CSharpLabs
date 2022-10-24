@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Test1": {
-      "commandName": "Project",
-      "commandLineArgs": "\"188662\" \"Murino\" \"Mendeleev Boulevard\" \"20\" \"1\" \"52\" \"Hello!\""
-    }
-  }
-}

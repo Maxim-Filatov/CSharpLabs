@@ -9,7 +9,7 @@ class Mail
     private String? City { get; set; }
     private String? Street { get; set; }
     private String? House { get; set; }
-    public String? Building { get; set; }
+    private String? Building { get; set; }
     private String? Flat { get; set; }
     private String? Message { get; set; }
     public String Address

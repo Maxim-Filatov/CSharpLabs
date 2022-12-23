@@ -68,8 +68,8 @@ class Mail
 
         for (int i = 0; i < 4; i++)
         {
-            int n = i + 2;
-            mails.Add(new Mail("Индекс-" + n, "Город-" + n, "Улица-" + n, "Дом-" + n, "Корпус-" + n, "Квартира-" + n, "Сообщение-" + n));
+            int n = i + 1;
+            mails.Add(new Mail("Индекс-" + n+1, "Город-" + n, "Улица-" + n, "Дом-" + n, "Корпус-" + n, "Квартира-" + n, "Сообщение-" + n));
         }
         PrintMails(mails);
         Console.WriteLine("\n");
